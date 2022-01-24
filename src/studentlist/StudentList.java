@@ -23,6 +23,9 @@ public class StudentList {
             sList[i]= new Student();
             System.out.println("Enter student name: ");
             sList[i].setStud_Name(input.nextLine());
+            System.out.println("Enter student address: ");
+            sList[i].setStud_Address(input.nextLine());
+            
         }
         
         for (int i = 0; i <= sList.length - 1; i++) {
@@ -30,6 +33,8 @@ public class StudentList {
        System.out.println("Student Name: " + sList[i].getStud_Name());
             System.out.println("Student Address: " + sList[i].getStud_Address());
         }
+        
+        
     }
 
 }
